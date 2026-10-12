@@ -22,7 +22,6 @@ Users can access Outlook on the web through Microsoft 365.
 
 ![Outlook on the web](../images/outlook-web.png)
 
-*Figure 1: Outlook on the web. Replace this placeholder with a screenshot that contains no personal or confidential information.*
 
 ## 2. Common Outlook Tasks
 
