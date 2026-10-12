@@ -21,7 +21,7 @@ Users can access Microsoft 365 applications through a web browser.
 
 **Support note:** The applications available to a user depend on their account type, licence, organisational configuration, and permissions.
 
-*Screenshot placeholder: Add a screenshot of the Microsoft 365 home page.*
+![Microsoft 365 home page](images/microsoft-365-portal.png)
 
 ## 2. Navigating the Microsoft 365 Portal
 
