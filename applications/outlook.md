@@ -1,4 +1,4 @@
-# Microsoft Outlook — IT Support Guide
+# Microsoft Outlook - IT Support Guide
 
 ## Overview
 
