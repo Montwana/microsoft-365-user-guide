@@ -1,4 +1,4 @@
-# Microsoft Teams — IT Support Guide
+# Microsoft Teams - IT Support Guide
 
 ## Overview
 
