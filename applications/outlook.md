@@ -1,177 +1,218 @@
-# Microsoft Outlook - IT Support Guide
+# Microsoft Outlook – User Support Guide
 
-## Overview
+## 1. Overview
 
-Microsoft Outlook is an email and calendar application used to communicate, organise meetings, and manage contacts. It is available through the web and supported desktop and mobile applications.
+Microsoft Outlook is an email and personal information management application used by organisations to manage business communication, calendars, meetings and contacts.
 
-This guide covers common Outlook tasks and first-line troubleshooting procedures for IT support technicians.
+As an IT Support Technician, understanding Outlook is important because email-related issues are among the common requests received by helpdesk teams.
 
-## 1. Accessing Outlook
+This guide covers basic Outlook functionality, user support procedures and common troubleshooting scenarios.
 
-Users can access Outlook on the web through Microsoft 365.
+## 2. Key Features
 
-**Procedure:**
+| Feature | Description |
+|---|---|
+| Email Management | Send, receive, organise and manage emails. |
+| Calendar | Schedule appointments and manage events. |
+| Meetings | Create and respond to meeting invitations. |
+| Contacts | Store and manage contact information. |
+| Attachments | Send and receive files through email. |
+| Search | Find emails, contacts and calendar items. |
 
-1. Open a web browser.
-2. Navigate to [Outlook](https://outlook.office.com/).
-3. Sign in using the appropriate Microsoft account.
-4. Complete any required authentication.
-5. Confirm that the mailbox and calendar are accessible.
-
-**Support note:** Access depends on the account, assigned licence, permissions, and organisational configuration.
 
 ![Outlook on the web](../images/outlook-web.png)
 
+## 3. Basic User Support
 
-## 2. Common Outlook Tasks
+### 3.1 Sending and Receiving Emails
 
-### Sending an email
+Users can send emails, reply to messages, forward emails and manage incoming messages.
 
-1. Select **New mail**.
-2. Enter the recipient's email address.
-3. Add a clear subject.
-4. Write the message.
-5. Attach files if required and appropriate.
-6. Review the recipients and message, then select **Send**.
+**Basic support procedure:**
 
-**Support tip:** If a recipient does not receive an email, check the Sent Items folder, any delivery or error notifications, and whether the message is in Drafts or Outbox.
+1. Open Outlook.
+2. Navigate to the Inbox.
+3. Select New Mail.
+4. Enter the recipient's email address.
+5. Add a subject and message.
+6. Attach files if required.
+7. Select Send.
 
-### Managing the calendar
+**Helpdesk considerations:**
 
-1. Open **Calendar** in Outlook.
-2. Select **New event**.
-3. Enter the event title, date, and time.
-4. Add attendees if needed.
-5. Review the meeting details and select **Send** or **Save**, as applicable.
+- Confirm that the recipient's email address is correct.
+- Check whether the message is saved in Drafts or Outbox.
+- Investigate connectivity issues if messages are not synchronising.
+- Check for delivery failure notifications.
 
-**Support tip:** When investigating a missing meeting, confirm the date range, calendar selected, meeting organiser, and whether the invitation was accepted or updated.
+### 3.2 Managing the Calendar
 
-### Managing attachments
+Outlook Calendar allows employees to schedule appointments, organise meetings and manage their availability.
 
-1. Open the relevant email.
-2. Locate the attachment.
-3. Confirm that the file is expected and from a trusted sender.
-4. Preview or download it using the available options.
-5. Follow organisational security policies before opening or sharing the file.
+**Basic support procedure:**
 
-**Security note:** Never encourage users to open unexpected attachments simply because they appear to come from a familiar sender.
+1. Open the Calendar section.
+2. Select New Event.
+3. Enter the event title.
+4. Select the date and time.
+5. Add participants if required.
+6. Save or send the invitation.
 
-## 3. Troubleshooting Common Outlook Issues
+**Helpdesk considerations:**
 
-### Issue 1: Outlook cannot be accessed
+- Verify the meeting date and time.
+- Check calendar permissions where applicable.
+- Investigate missing meeting invitations.
+- Check time zone settings if meeting times appear incorrect.
+
+### 3.3 Managing Email Attachments
+
+Outlook allows users to attach files to outgoing messages and access files received from other users.
+
+**Helpdesk considerations:**
+
+- Confirm that the attachment is included before sending.
+- Check file size restrictions.
+- Investigate unsupported file types.
+- Consider secure file-sharing alternatives for large files.
+
+## 4. Common Outlook Issues and Troubleshooting
+
+### Issue 1: Outlook Is Not Sending or Receiving Emails
 
 **Possible causes:**
+- Internet connectivity problems.
+- Incorrect account configuration.
+- Temporary service interruptions.
+- Mailbox storage limitations.
 
-* Sign-in or authentication problems.
-* Incorrect account selection.
-* Browser session issues.
-* Mailbox permissions or licensing problems.
-* A Microsoft 365 service disruption.
+**Troubleshooting procedure:**
 
-**Troubleshooting steps:**
+1. Check whether the computer has an active internet connection.
+2. Test whether other websites and applications are accessible.
+3. Check Outlook for connection or synchronisation errors.
+4. Verify whether the issue affects sending, receiving or both.
+5. Check Microsoft 365 service health if administrative access is available.
+6. Retry sending or receiving a test email.
+7. Escalate if the issue persists.
 
-1. Record the exact error message.
+### Issue 2: Outlook Cannot Sign In
+
+**Possible causes:**
+- Incorrect username.
+- Incorrect or outdated credentials.
+- Account restrictions.
+- Multifactor authentication problems.
+
+**Troubleshooting procedure:**
+
+1. Confirm that the user is using the correct organisational email address.
 2. Check whether the user can access other Microsoft 365 services.
-3. Try accessing Outlook on the web at [outlook.office.com](https://outlook.office.com/).
-4. If permitted, try a private browser window to check for a browser-session issue.
-5. Check relevant service health information if authorised.
-6. Escalate persistent sign-in, mailbox, or licensing issues to the appropriate administrator.
+3. Review any error messages displayed.
+4. Verify account status through the appropriate administrative channel, where available.
+5. Follow the organisation's approved password-reset or account-recovery procedure.
+6. Escalate unresolved authentication issues.
 
-**Verification:** Confirm that the user can open the mailbox and access the required features.
+**Security note:** Never request or record an employee's password.
 
-### Issue 2: Emails are not being received
-
-**Possible causes:**
-
-* Messages are in Junk Email or another folder.
-* An inbox rule has moved the messages.
-* The sender used an incorrect address.
-* The mailbox has a storage or organisational restriction.
-* A mail-flow or service issue exists.
-
-**Troubleshooting steps:**
-
-1. Ask the user for the sender, approximate time, and subject of the missing message.
-2. Search the mailbox and check Junk Email, Deleted Items, and other relevant folders.
-3. Review inbox rules and forwarding settings where authorised.
-4. Ask the sender to confirm the recipient address and check for a delivery failure notification.
-5. If the issue persists, escalate for message-trace or mail-flow investigation by an authorised administrator.
-
-**Verification:** Confirm that the expected message is available or that the cause has been identified for further investigation.
-
-### Issue 3: Emails are stuck in the Outbox
+### Issue 3: Outlook Is Running Slowly
 
 **Possible causes:**
+- Poor internet connectivity.
+- Large mailbox size.
+- Excessive cached data.
+- Outdated application.
+- Problematic add-ins.
 
-* Network connectivity problems.
-* An attachment that exceeds an applicable limit.
-* A temporary application or service issue.
-* An account or sending restriction.
+**Troubleshooting procedure:**
 
-**Troubleshooting steps:**
+1. Check the computer's overall performance.
+2. Determine whether the issue occurs in Outlook only.
+3. Check for available Office updates.
+4. Test Outlook on the web, if available.
+5. Investigate add-ins if using classic Outlook.
+6. Escalate if performance remains poor.
 
-1. Confirm that the device has an internet connection.
-2. Check whether Outlook displays a connection or sending error.
-3. Open the Outbox and inspect the affected message.
-4. Check the attachment size and applicable organisational limits.
-5. If using desktop Outlook, check whether Work Offline is enabled.
-6. Retry sending when connectivity is restored.
-7. If the message remains unsent, record the error and escalate as necessary.
-
-**Verification:** Confirm that the message leaves the Outbox and appears in Sent Items.
-
-### Issue 4: Outlook is slow or unresponsive
+### Issue 4: Outlook Is Not Synchronising
 
 **Possible causes:**
+- Network connectivity problems.
+- Account synchronisation errors.
+- Application configuration issues.
+- Temporary service interruptions.
 
-* A temporary application or browser issue.
-* Network performance problems.
-* Large mail folders or mailbox-related issues.
-* Desktop add-ins or application configuration problems.
+**Troubleshooting procedure:**
 
-**Troubleshooting steps:**
+1. Confirm that the device has internet access.
+2. Check the last successful synchronisation.
+3. Compare the mailbox in Outlook with Outlook on the web, if available.
+4. Review any synchronisation error messages.
+5. Investigate account configuration.
+6. Confirm whether new messages are synchronising.
 
-1. Determine whether the issue occurs in Outlook on the web, the desktop application, or both.
-2. Check the device's network connection and overall performance.
-3. If using Outlook on the web, refresh the page and test a supported browser.
-4. If using desktop Outlook, restart the application and check for available updates according to organisational policy.
-5. If the problem persists, collect the error details and escalate for further diagnosis.
+## 5. Practical Helpdesk Scenarios
 
-**Verification:** Confirm whether Outlook responds normally and whether the issue is resolved or isolated to a specific environment.
+The following scenarios are used to practise structured incident investigation.
 
-## 4. Information to Record During Troubleshooting
+### Scenario 1: Employee Cannot Send Emails
 
-Document the following information in accordance with organisational procedures:
+**Reported problem:** A Finance employee reports that emails remain in the Outbox.
 
-* Affected user and service, using approved support-ticket identifiers.
-* Date and approximate time of the issue.
-* Exact error message or observed symptoms.
-* Whether the issue affects one user or multiple users.
-* Troubleshooting steps performed and their results.
-* Resolution, outstanding actions, or escalation details.
+**Initial investigation:**
+- Check internet connectivity.
+- Review the Outbox for pending messages.
+- Check for error notifications.
+- Determine whether the problem affects all recipients.
 
-Never include passwords, authentication codes, or unnecessary personal information in support notes.
+**Expected outcome:** Identify the cause, apply an appropriate resolution and confirm that the employee can send a test email.
 
-## 5. When to Escalate
+### Scenario 2: Employee Cannot Access Outlook
 
-Escalate when:
+**Reported problem:** A Sales employee cannot sign in to their Outlook account.
 
-* Mailbox access or permissions require administrator intervention.
-* Multiple users experience similar sending or receiving failures.
-* Message delivery requires an administrative message trace.
-* A suspected service disruption affects Outlook.
-* Basic troubleshooting does not resolve the issue.
+**Initial investigation:**
+- Verify the organisational username.
+- Review the displayed authentication error.
+- Check whether other Microsoft 365 services are accessible.
+- Investigate account access through the appropriate administrative process.
 
-## 6. Official Microsoft Resources
+**Expected outcome:** Identify whether the problem relates to credentials, authentication or account status.
 
-* [Outlook on the web](https://outlook.office.com/)
-* [Microsoft Outlook help](https://support.microsoft.com/outlook)
-* [Microsoft 365 troubleshooting](https://learn.microsoft.com/en-us/troubleshoot/microsoft-365-apps/)
+### Scenario 3: Employee Is Not Receiving Meeting Invitations
 
-## Document Information
+**Reported problem:** An employee reports that scheduled meeting invitations are not appearing in Outlook.
 
-* **Category:** IT Support Documentation
-* **Audience:** IT support technicians
-* **Status:** Initial draft
-* **Last reviewed:** October 2026
+**Initial investigation:**
+- Confirm the meeting organiser and recipient address.
+- Check the Inbox, Junk Email and Deleted Items folders.
+- Review calendar settings.
+- Determine whether other employees are experiencing the same issue.
 
+**Expected outcome:** Identify the reason for the missing invitations and verify that meeting notifications are working.
+
+## 6. IT Support Best Practices
+
+- Protect employee account credentials.
+- Verify the user's identity before making account changes.
+- Document troubleshooting steps and resolutions.
+- Avoid unnecessary changes to account configurations.
+- Keep Outlook applications updated.
+- Escalate issues requiring administrative privileges.
+- Confirm that the user can access the service before closing an incident.
+
+## 7. Knowledge and Skills Demonstrated
+
+Through this guide, I demonstrate an understanding of:
+
+- Email and calendar support.
+- Basic Outlook configuration concepts.
+- Email delivery and synchronisation troubleshooting.
+- Account access investigation.
+- Structured incident diagnosis.
+- User communication and technical documentation.
+
+---
+
+**Application:** Microsoft Outlook  
+**Category:** Microsoft 365 User Support  
+**Project:** Microsoft 365 Helpdesk Lab
