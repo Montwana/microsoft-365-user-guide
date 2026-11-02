@@ -1,56 +1,64 @@
 # Microsoft 365 User Guide
 
-A practical knowledge base for IT support technicians covering Microsoft 365 applications, common user issues, troubleshooting procedures, and account security.
+A practical IT support project focused on Microsoft 365 user support, application troubleshooting, user administration procedures and technical documentation.
+
+## Project Overview
+
+This project simulates an IT support environment for **Botabota Office Solutions**, a fictional small business with employees across four departments.
+
+The lab demonstrates how a Helpdesk Technician can assist users with Microsoft 365 applications, investigate common technical issues, document solutions and follow structured IT support procedures.
 
 ## Objectives
 
-* Document common Microsoft 365 user tasks.
-* Provide structured troubleshooting procedures.
-* Improve technical documentation and end-user support skills.
-* Promote secure and responsible use of Microsoft 365.
+- Demonstrate practical Microsoft 365 application support.
+- Document employee onboarding and offboarding procedures.
+- Investigate and troubleshoot common Microsoft 365 issues.
+- Develop structured incident reports and support documentation.
+- Build a knowledge base for recurring technical problems.
 
-## Documentation
+## Areas of Practice
 
-| Section                                          | Description                                         |
-| ------------------------------------------------ | --------------------------------------------------- |
-| [Getting Started](getting-started.md)            | Accessing Microsoft 365 and navigating its services |
-| [Outlook](applications/outlook.md)               | Email and calendar support                          |
-| [Microsoft Teams](applications/teams.md)         | Meetings, messaging, and collaboration              |
-| [OneDrive](applications/onedrive.md)             | File storage, sharing, and synchronisation          |
-| [Word](applications/word.md)                     | Document creation and editing                       |
-| [Excel](applications/excel.md)                   | Spreadsheets and basic data management              |
-| [Troubleshooting](troubleshooting/)              | Common problems and resolution procedures           |
-| [Account Security](security/account-security.md) | Account protection and safe working practices       |
+| Area | Focus |
+|---|---|
+| Outlook | Email configuration and troubleshooting |
+| Microsoft Teams | Meetings, communication and user support |
+| OneDrive | File synchronisation and sharing |
+| SharePoint | Document access and permissions |
+| User Administration | Account management and employee lifecycle procedures |
+| Troubleshooting | Incident investigation and resolution |
 
-## Troubleshooting Approach
+## Repository Structure
 
-Each troubleshooting guide will cover:
+```text
+Microsoft-365-Helpdesk-Lab/
+│
+├── applications/
+├── user-administration/
+├── troubleshooting/
+├── service-desk-scenarios/
+├── screenshots/
+│
+├── getting-started.md
+└── README.md
+```
 
-1. Reported issue and symptoms
-2. Possible causes
-3. Initial diagnostic checks
-4. Step-by-step resolution
-5. Verification and escalation
+## Tools & Technologies
 
-## Tools and Technologies
+- Microsoft 365
+- Windows
+- GitHub
+- Markdown
 
-* Microsoft 365 applications and services
-* GitHub
-* Markdown documentation
-* Screenshots and procedural guides
+## Project Documentation
 
-## Documentation Sources
+The repository contains practical guides, troubleshooting scenarios, administrative procedures and supporting screenshots.
 
-Procedures will be informed by official Microsoft documentation and clearly distinguish user-level troubleshooting from tasks requiring administrator access.
-
-* [Microsoft 365 Support](https://www.microsoft.com/en-us/microsoft-365/support)
-* [Microsoft 365 IT Troubleshooting](https://learn.microsoft.com/en-us/troubleshoot/microsoft-365-apps/)
+**Note:** This is an independent learning and simulation project. Administrative procedures that require a business tenant are documented as simulations where direct configuration is unavailable.
 
 ## Project Status
 
-In progress — documentation and troubleshooting procedures are being developed incrementally.
+In Progress 🚧
 
-## Disclaimer
+---
 
-This is an independent learning and portfolio project. It is not an official Microsoft publication.
-
+Developed as part of my IT Support and Helpdesk projects.
