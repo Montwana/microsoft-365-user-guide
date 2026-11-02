@@ -1,121 +1,85 @@
-# Getting Started with Microsoft 365
+# Getting Started – IT Support Environment
 
-## Overview
+## 1. Introduction
 
-Microsoft 365 is a collection of productivity and collaboration services that includes applications such as Outlook, Word, Excel, Teams, and OneDrive.
+This project simulates an IT support environment for **Botabota Office Solutions**, a fictional small business that uses Microsoft 365 to support its daily operations.
 
-This guide introduces the Microsoft 365 environment and provides IT support technicians with initial checks for common access issues.
+The organisation relies on Microsoft 365 applications for communication, collaboration, document management and file sharing.
 
-## 1. Accessing Microsoft 365
+As the IT Support Technician, my responsibility is to assist employees with technical issues, provide application support, document incidents and follow established IT support procedures.
 
-Users can access Microsoft 365 applications through a web browser.
+## 2. Organisation Overview
 
-**Procedure:**
+Botabota Office Solutions has 15 employees distributed across four departments.
 
-1. Open a supported web browser.
-2. Navigate to [Microsoft365.com](https://www.microsoft365.com/).
-3. Select **Sign in**.
-4. Enter the user's organisational or personal Microsoft account, as applicable.
-5. Complete any required identity verification.
-6. After signing in, locate the applications available to the account.
+| Department | Employees | Primary Responsibilities |
+|---|---:|---|
+| IT Support | 3 | Technical support and IT administration |
+| Finance | 4 | Financial records and reporting |
+| Sales | 5 | Customer communication and sales operations |
+| Human Resources | 3 | Employee records and recruitment |
+| **Total** | **15** | |
 
-**Support note:** The applications available to a user depend on their account type, licence, organisational configuration, and permissions.
+## 3. Microsoft 365 Environment
 
-![Microsoft 365 home page](images/microsoft-365-portal.png)
+The simulated organisation uses the following Microsoft 365 applications and services:
 
-## 2. Navigating the Microsoft 365 Portal
+| Application | Business Purpose |
+|---|---|
+| Outlook | Business email and calendar management |
+| Microsoft Teams | Internal communication and online meetings |
+| OneDrive | Personal work file storage and sharing |
+| SharePoint | Departmental document management and collaboration |
+| Word | Document creation |
+| Excel | Data management and reporting |
 
-The Microsoft 365 home page provides access to available applications and services.
+Application availability and administrative capabilities depend on the Microsoft 365 account and licence assigned.
 
-Common applications include:
+## 4. IT Support Responsibilities
 
-| Application     | Primary purpose                                |
-| --------------- | ---------------------------------------------- |
-| Outlook         | Email and calendar management                  |
-| Microsoft Teams | Messaging, meetings, and collaboration         |
-| OneDrive        | Personal work-file storage and synchronisation |
-| Word            | Creating and editing documents                 |
-| Excel           | Working with spreadsheets and data             |
-| PowerPoint      | Creating presentations                         |
+The IT Support Technician is responsible for:
 
-Application availability may vary depending on the user's subscription and organisation.
+- Assisting employees with Microsoft 365 application issues.
+- Investigating email and account access problems.
+- Troubleshooting file synchronisation and sharing issues.
+- Supporting Microsoft Teams meetings and communication.
+- Assisting with basic Windows and connectivity problems.
+- Documenting incidents and their resolutions.
+- Following employee onboarding and offboarding procedures.
+- Escalating issues that require higher-level technical support.
 
-## 3. Initial Account Checks
+## 5. Support Process
 
-When a user reports difficulty accessing Microsoft 365, gather the relevant information before attempting to resolve the issue.
+All reported incidents follow a structured support process:
 
-### Initial checklist
+1. **Receive:** Obtain the employee's problem description.
+2. **Record:** Document the issue and relevant information.
+3. **Assess:** Determine the impact and priority.
+4. **Investigate:** Perform appropriate troubleshooting.
+5. **Resolve:** Apply a suitable solution or escalate the issue.
+6. **Verify:** Confirm that the service is working as expected.
+7. **Close:** Document the resolution and update the incident record.
 
-* [ ] Confirm which application or service the user is trying to access.
-* [ ] Record the exact error message.
-* [ ] Confirm whether the user can access Microsoft 365 through a browser.
-* [ ] Check whether the device has a working internet connection.
-* [ ] Determine whether the issue affects one application or several services.
-* [ ] Confirm whether the user recently changed their password or completed an account setup.
-* [ ] Check for relevant service health notifications, if authorised.
+## 6. Project Scope
 
-**Security reminder:** Never ask users to disclose their passwords or verification codes. Do not record authentication secrets in support notes.
+This lab focuses on practical Microsoft 365 user support, application troubleshooting, administrative procedures and technical documentation.
 
-## 4. Basic Sign-In Troubleshooting
+Some activities will be performed using available Microsoft 365 applications, while administrative scenarios requiring a business tenant will be simulated and documented.
 
-### Problem: The user cannot sign in
+All employee information used in this project is fictional.
 
-**Possible causes:**
+## 7. Project Objectives
 
-* Incorrect account identifier.
-* Password or authentication difficulties.
-* Account lockout or access restrictions.
-* Browser session problems.
-* Organisational sign-in policies.
+By completing this lab, I aim to demonstrate the ability to:
 
-**Troubleshooting procedure:**
+- Provide first-line Microsoft 365 application support.
+- Investigate and resolve common user issues.
+- Follow structured IT support procedures.
+- Maintain clear technical documentation.
+- Understand basic Microsoft 365 administration concepts.
 
-1. Confirm that the user is using the correct sign-in page and account.
-2. Ask the user to check for typing errors in their account identifier.
-3. Check the displayed error message and follow the appropriate Microsoft recovery or organisational support process.
-4. If permitted by organisational policy, try a private browser window to determine whether the problem is related to the existing browser session.
-5. If the problem persists, check the available sign-in diagnostics or escalate to the Microsoft 365 administrator.
+---
 
-**Expected result:** The user can access the service, or the technician has sufficient diagnostic information to escalate the issue.
-
-### Problem: An application is missing
-
-**Possible causes:**
-
-* The application is not included in the user's subscription.
-* The user is signed in with a different account.
-* The organisation has restricted access to the application.
-* The application is accessed through a different interface.
-
-**Troubleshooting procedure:**
-
-1. Confirm which account the user is using.
-2. Check whether the application is available through the Microsoft 365 home page.
-3. Confirm the user's assigned licence and permissions through the authorised administrative process, if applicable.
-4. Escalate any licensing or access changes that require administrator privileges.
-
-## 5. When to Escalate
-
-Escalate the issue when:
-
-* The account appears locked or blocked by an organisational policy.
-* The user cannot complete required authentication.
-* An administrator must investigate licensing or permissions.
-* Multiple users experience the same service problem.
-* The issue persists after basic diagnostic checks.
-
-Include the affected service, time of occurrence, exact error message, troubleshooting steps completed, and outcome. Follow organisational procedures when handling any user or diagnostic information.
-
-## 6. Official Microsoft Resources
-
-* [Microsoft 365](https://www.microsoft365.com/)
-* [Microsoft Support](https://support.microsoft.com/)
-* [Microsoft 365 troubleshooting documentation](https://learn.microsoft.com/en-us/troubleshoot/microsoft-365-apps/)
-
-## Document Information
-
-* **Category:** IT Support Documentation
-* **Audience:** IT support technicians
-* **Status:** Initial draft
-* **Last reviewed:** October 2026
-
+**Project:** Microsoft 365 User Guide
+**Organisation:** Botabota Office Solutions  
+**Role:** IT Support Technician
